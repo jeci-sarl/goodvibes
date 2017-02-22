@@ -70,8 +70,8 @@ icon32dir    = $(datadir)/icons/hicolor/32x32/apps
 icon32_DATA  = icons/hicolor/32x32/apps/@PACKAGE_NAME@.png
 icon48dir    = $(datadir)/icons/hicolor/48x48/apps
 icon48_DATA  = icons/hicolor/48x48/apps/@PACKAGE_NAME@.png
-icon256dir   = $(datadir)/icons/hicolor/256x256/apps
-icon256_DATA = icons/hicolor/256x256/apps/@PACKAGE_NAME@.png
+icon192dir   = $(datadir)/icons/hicolor/192x192/apps
+icon192_DATA = icons/hicolor/192x192/apps/@PACKAGE_NAME@.png
 
 EXTRA_DIST +=		\
 	$(icon16_DATA)	\
@@ -79,7 +79,7 @@ EXTRA_DIST +=		\
 	$(icon24_DATA)	\
 	$(icon32_DATA)	\
 	$(icon48_DATA)	\
-	$(icon256_DATA)	\
+	$(icon192_DATA)	\
 	icons/src/@PACKAGE_NAME@.svg
 
 # ----------------------------------------------------- #
